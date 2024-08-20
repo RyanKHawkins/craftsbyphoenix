@@ -6,3 +6,4 @@ const products = [
         description: "product description"
     }
 ]
+
