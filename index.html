@@ -9,25 +9,31 @@
 <body>
     <h1 id="main-header">Crafts by Phoenix</h1>
 
-    <div id="navbar"></div>
-    <div>
-        <label for="category-selector">Choose a category</label>
-        <select name="category-selector" id="category-selector">
-            <!-- <option selected disabled>Choose a category</option> -->
-            <option label="Bracelets" value="bracelets"></option>
-            <option label="Tails" value="tails"></option>
-            <option label="Miscellaneous" value="miscellaneous"></option>
-            <option label="All" value="all"></option>
-        </select>
-    </div>
+    <!-- <div id="navbar"></div> -->
+    <main>
+        <div id="selection-area">
+            <label for="category-selector">Choose a category</label>
+            <select name="category-selector" id="category-selector">
+                <!-- <option selected disabled>Choose a category</option> -->
+                <option label="All" value="all"></option>
+                <option label="Bracelets" value="bracelets"></option>
+                <option label="Tails" value="tails"></option>
+                <option label="Miscellaneous" value="miscellaneous"></option>
+            </select>
+        </div>
 
-    <div id="category-header"></div>
+        <div id="category-header"></div>
 
-    <div id="display-area">
-        This is where a display of the products will go, when I get the images and descriptions from the incredible creator.
-    </div>
+        <div id="display-area">
+            This is where a display of the products will go, when I get the images and descriptions from the incredible creator.
+        </div>
+        <div id="button-area">
+            <div class="buttons">Previous</div>
+            <div class="buttons">Next</div>
+        </div>
+    </main>
+        <footer>Checkout our <a href="https://www.etsy.com/shop/CraftsbyPhoenixH" target="_blank">Etsy Shop</a> for purchasing.</footer>
 
-    <footer>For a price quote, contact Sophie (Phoenix) on ...</footer>
 
     <script src="src/script.js" type="module"></script>
     <script src="src/products.js"></script>
