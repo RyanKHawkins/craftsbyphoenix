@@ -5,13 +5,13 @@ const products = [
         name: "Beaded Blue Heart & Flower Bracelet",
         image: "src/assets/images/20240824191227.jpg",
         category: "bracelets",
-        description: ""
+        description: "A handmade bracelet themed around very cool and earthy tones."
     },
     {
-        name: "Rubber Band Fishtail Bracelet",
+        name: "Fishtail Woven Rubber Band Bracelet",
         image: "src/assets/images/20240824184912.jpg",
         category: "bracelets",
-        description: "Rubberband bracelet with fishtail weave"
+        description: "A beautifully woven fishtail rubber band bracelet themed around a tri color combo that was completely random."
     }, 
 ]
 
