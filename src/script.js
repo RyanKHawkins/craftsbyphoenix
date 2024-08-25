@@ -13,6 +13,3 @@ const categoryDisplayDict = {
     "tails": "Tails",
     "miscellaneous": "Miscellaenous"
 }
-
-
-displayProducts()
