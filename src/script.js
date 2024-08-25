@@ -1,3 +1,5 @@
+import "./products.js"
+
 const categorySelector = document.querySelector("#category-selector");
 const categoryHeader = document.querySelector("#category-header");
 
@@ -11,3 +13,6 @@ const categoryDisplayDict = {
     "tails": "Tails",
     "miscellaneous": "Miscellaenous"
 }
+
+
+displayProducts()

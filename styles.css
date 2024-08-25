@@ -1,5 +1,9 @@
 :root {
-    --top-margin: 15px;
+    --top-margin: 5px;
+    --bg-color: #A8D1D1;
+    --display-bg-color: #B7E4A3;
+    --text-color: #7E80A9;
+    --display-red: #FD8A8A
 }
 
 /*
@@ -8,7 +12,9 @@
     #F1F7B5
     #A8D1D1
     #9EA1D4
-
+    #7E80A9
+    #364430
+    #B7E4A3
 */
 
 * {
@@ -21,15 +27,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 100vh;
+    background-color: var(--bg-color);
+    margin-top: calc(var(--top-margin) * 3);
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
 h1 {
     margin-top: var(--top-margin);
     text-align: center;
+    color: var(--text-color);
+}
+
+h3 {
+    text-align: center;
+    color: #587D4A;
 }
 
 main {
     margin-top: var(--top-margin);
+    max-height: 90vh;
 }
 
 #navbar {
@@ -42,19 +60,54 @@ main {
     align-items: center;
     margin-top: var(--top-margin);
 }
+
+option {
+    text-align: center;
+}
+
 #category-header {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 20px;
     text-align: center;
     margin-top: var(--top-margin);
 }
+
 #display-area {
-    border: 1px solid;
-    width: 50vw;
-    height: 60vh;
-    margin-top: var(--top-margin);
+    /* border: 1px solid; */
+    width: 75vw;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: var(--display-bg-color);
 }
 
+.product-displays {
+    /* border: 1px solid red; */
+}
+
+.product-displays > * {
+    margin-top: calc(var(--top-margin));
+}
+
+.product-images {
+    max-width: 75%;
+    max-height: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#product-descriptions {
+    /* border: 1px solid; */
+    max-width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: calc(var(--top-margin));
+    padding: 10px;
+    text-align: center;
+}
 #button-area {
     display: flex;
     flex-direction: row;
@@ -65,18 +118,29 @@ main {
 .buttons {
     height: 20px;
     width: 75px;
-    border: 1px solid blue;
+    margin-top: var(--top-margin);
+    border: 2px solid var(--text-color);
     text-align: center;
+    background-color: var(--display-red);
+    /* color: var(--display-bg-color); */
 }
 
 .buttons:active {
     transform: scale(.9);
 }
+
 footer {
     margin-top: var(--top-margin);
 }
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text-color)    ;
+}
+
 @media screen and (max-width: 450px) {
     #display-area {
-        width: 75vw;
+        /* width: 75vw; */
     }
 }
