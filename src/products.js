@@ -46,7 +46,7 @@ const products = [
     },
 ]
 
-export function displayProducts(index) {
+export function displayProduct(index) {
     displayArea.innerHTML = 
     `<div class="product-displays" id="product-display">
         <h3> ${products[index].name}</h3>
@@ -59,6 +59,6 @@ export function displayProducts(index) {
     }
 }
 
-displayProducts(6)
+displayProduct(6)
 
 console.log(products)
