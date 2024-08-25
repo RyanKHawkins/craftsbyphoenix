@@ -47,7 +47,10 @@ h3 {
 
 main {
     margin-top: var(--top-margin);
-    max-height: 90vh;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #navbar {
@@ -55,10 +58,13 @@ main {
 }
 #selection-area {
     display: flex;
-    flex-direction: column; */
-    width: 50px;
+    flex-direction: column;
+    width: 150px;
     align-items: center;
+    justify-content: center;
     margin-top: var(--top-margin);
+    padding: 5px;
+    background-color: var(--display-red);
 }
 
 option {
@@ -74,8 +80,9 @@ option {
 
 #display-area {
     /* border: 1px solid; */
-    width: 75vw;
-    /* height: 70vh; */
+    /* box-shadow: 0 0 5px var(--display-red); */
+    width: 50vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -119,9 +126,9 @@ option {
     height: 20px;
     width: 75px;
     margin-top: var(--top-margin);
-    border: 2px solid var(--text-color);
     text-align: center;
     background-color: var(--display-red);
+    border: 2px solid var(--text-color);
     /* color: var(--display-bg-color); */
 }
 
@@ -141,6 +148,7 @@ a {
 
 @media screen and (max-width: 450px) {
     #display-area {
-        /* width: 75vw; */
+        width: 75vw;
+        /* max-height: 55vh; */
     }
 }
