@@ -46,19 +46,33 @@ const products = [
     },
 ]
 
-export function displayProduct(index) {
+function displayProduct(index) {
     displayArea.innerHTML = 
     `<div class="product-displays" id="product-display">
         <h3> ${products[index].name}</h3>
         <img src="${products[index].image}" class="product-images"/>
         <p id="product-description">${products[index].description}</p>
     </div>`
-    if (products[index].disclaimer.length) {
+    if (products[index].disclaimer?.length) {
         document.querySelector(".product-displays").innerHTML += 
             `<p id="product-disclaimer">${products[index].disclaimer}</p>`
     }
 }
 
-displayProduct(6)
+
+let index = 0
+function rotateProduct(direction) {
+    let arrayLength = products.length;
+    if (direction == "next") {
+        index = index + 1 % products.length - 1;
+        console.log(index)
+    } else {
+
+    }
+    displayProduct(index);
+}
+
+
+displayProduct(index)
 
 console.log(products)
