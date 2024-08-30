@@ -100,7 +100,6 @@ option {
 
 .product-images {
     max-width: 75%;
-    /* max-height: 35%; */
     max-height: 300px;
     position: relative;
     left: 50%;
