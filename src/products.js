@@ -60,14 +60,18 @@ function displayProduct(index) {
 }
 
 
-let index = 0
-function rotateProduct(direction) {
-    let arrayLength = products.length;
-    if (direction == "next") {
-        index = index + 1 % products.length - 1;
-        console.log(index)
-    } else {
+let index = Math.floor(Math.random() * products.length);
+export function rotateProduct(direction) {
+    if (direction == "next-button") {
+        index += 1;
+        index = index % (products.length - 1);
+        console.log("index: ", index);
+    } 
+    else if (direction = "prev-button") {
+        index -= 1;
+        index = index < 0 ? products.length - 1 : index;
 
+        console.log("index: ", index);
     }
     displayProduct(index);
 }
