@@ -20,6 +20,12 @@ const products = [
         description: "Cute little kandi flowers that you can display or use to make your very own kandi flower bracelet!"
     },
     {
+        name: "Multi-Colour Ladder Cuff",
+        image: "src/assets/images/multicolorladdercuff.jpg",
+        category: "bracelets",
+        description: "A multicolor ladder cuff handmade and handcrafted for small wrists havers that want a little pizzazz to go with their outfit!"
+    },
+    {
         name: "Orange vs Red",
         image: "src/assets/images/orangevsred.jpg",
         category: "bracelets",
