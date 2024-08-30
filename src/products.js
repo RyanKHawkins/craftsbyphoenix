@@ -67,22 +67,16 @@ function displayProduct(index) {
 
 
 let index = Math.floor(Math.random() * products.length);
+console.log("starting index: ", index);
 export function rotateProduct(direction) {
     if (direction == "next-button") {
-        index += 1;
-        index = index % (products.length - 1);
-        console.log("index: ", index);
+        index = (index + 1) % products.length        
     } 
     else if (direction = "prev-button") {
-        index -= 1;
-        index = index < 0 ? products.length - 1 : index;
-
-        console.log("index: ", index);
+        index = (products.length + index - 1) % products.length
     }
     displayProduct(index);
 }
 
 
 displayProduct(index)
-
-console.log(products)
