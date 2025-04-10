@@ -1,6 +1,6 @@
 const displayArea = document.querySelector("#display-area");
 
-const products = [
+export const products = [
     {
         name: "Beaded Blue Heart & Flower Bracelet",
         image: "src/assets/images/beadedblueandflower.jpg",
@@ -62,7 +62,7 @@ const products = [
     },
 ]
 
-function displayProduct(index) {
+export function displayProduct(index) {
     displayArea.innerHTML = 
     `<div class="product-displays" id="product-display">
         <h3> ${products[index].name}</h3>
