@@ -1,5 +1,4 @@
-import "./products.js"
-import { rotateProduct } from "./products.js";
+import * as Products from "./products.js"
 
 const categorySelector = document.querySelector("#category-selector");
 const categoryHeader = document.querySelector("#category-header");
@@ -22,6 +21,6 @@ const categoryDisplayDict = {
 Array.from(document.querySelectorAll(".buttons")).forEach(button => {
     button.addEventListener("click", (e) => {
         console.log(e.target.id),
-        rotateProduct(e.target.id)
+        Products.rotateProduct(e.target.id)
     })
 })
