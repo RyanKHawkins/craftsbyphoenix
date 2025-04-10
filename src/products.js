@@ -4,60 +4,62 @@ export const products = [
     {
         name: "Beaded Blue Heart & Flower Bracelet",
         image: "src/assets/images/beadedblueandflower.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A handmade bracelet themed around very cool and earthy tones."
     },
     {
         name: "Fishtail Woven Rubber Band Bracelet",
         image: "src/assets/images/fishtailwoven.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A beautifully woven fishtail rubber band bracelet themed around a tri color combo that was completely random."
     }, 
     {
         name: "Kandi Flowerz",
         image: "src/assets/images/kandiflowerz.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "Cute little kandi flowers that you can display or use to make your very own kandi flower bracelet!"
     },
     {
         name: "Multi-Colour Ladder Cuff",
         image: "src/assets/images/multicolorladdercuff.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A multicolor ladder cuff handmade and handcrafted for small wrists havers that want a little pizzazz to go with their outfit!"
     },
     {
         name: "Orange vs Red",
         image: "src/assets/images/orangevsred.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A carefully handmade bracelet where two colors fight to be the coolest! :]"
     },
     {
         name: "Pastel 'RAWR' Bracelet",
         image: "src/assets/images/rawr.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A bracelet based around the lovely pastel colors of cotton candy and the silly phrase 'Rawr'."
     },
     {
         name: "Pink & Purple Themed Bracelet",
         image: "src/assets/images/pinkandpurple.jpg",
-        category: "bracelets", 
+        categories: ["bracelets"], 
         description: "This beauty of a bracelet was handmade to fit bigger wrists than most and also to be durable and stretchy."
     },
     {
         name: "Taylor Swift Album 'Lover' Themed Bracelet",
         image: "src/assets/images/taylorswiftalbumlover.jpg",
-        category: "bracelets",
+        categories: ["bracelets"],
         description: "A very carefully and beautifully handmade kandi bracelet created for 'lovers' of Taylor Swift's hit album 'Lover'.",
         disclaimer: "The bracelet was themed around the album cover. All credits for album cover and color scheme go to the creators of it."
     },
     {
         name: "Flower Bracelet 1",
         image: "src/assets/images/Resized_IMG_0202.jpeg.jpg",
+        categories: ["bracelets"],
         description: "",
     },
     {
         name: "Flower Bracelet 2",
         image: "src/assets/images/Resized_IMG_0206.jpeg.jpg",
+        categories: ["bracelets"],
         description: "",
     },
 ]
