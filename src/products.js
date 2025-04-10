@@ -50,6 +50,16 @@ const products = [
         description: "A very carefully and beautifully handmade kandi bracelet created for 'lovers' of Taylor Swift's hit album 'Lover'.",
         disclaimer: "The bracelet was themed around the album cover. All credits for album cover and color scheme go to the creators of it."
     },
+    {
+        name: "Flower Bracelet 1",
+        image: "src/assets/images/Resized_IMG_0202.jpeg.jpg",
+        description: "",
+    },
+    {
+        name: "Flower Bracelet 2",
+        image: "src/assets/images/Resized_IMG_0206.jpeg.jpg",
+        description: "",
+    },
 ]
 
 function displayProduct(index) {
