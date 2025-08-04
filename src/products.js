@@ -62,6 +62,12 @@ export const products = [
         categories: ["bracelets"],
         description: "",
     },
+    /*{
+        name: "Craft Name",
+        image: "",
+        categories: [],
+        description: "A description of the craft"
+    },*/
 ]
 
 export function displayProduct(index) {
